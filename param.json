@@ -1,0 +1,58 @@
+{
+	"Data":{
+		"resolution": 224,
+		"test_size": 0.075
+	},
+	
+	"Net":{
+		"kernal_1": 7,
+		"padding_1": 1,
+		"stride_1": 2,
+		"conv1_out_channels": 96,
+		
+		"pool_kernal_1": 3,
+		"pool_padding_1": 1,
+		"pool_stride_1": 2,
+		
+		"kernal_2": 5,
+		"padding_2": 0,
+		"stride_2": 2,
+		"conv2_out_channels": 256,
+		
+		"pool_kernal_2": 3,
+		"pool_padding_2": 0,
+		"pool_stride_2": 2,
+		
+		"kernal_3": 3,
+		"padding_3": 1,
+		"stride_3": 1,
+		"conv3_out_channels": 384,
+		
+		"kernal_4": 3,
+		"padding_4": 1,
+		"stride_4": 1,
+		"conv4_out_channels": 384,
+		
+		"kernal_5": 3,
+		"padding_5": 1,
+		"stride_5": 1,
+		"conv5_out_channels":256,
+		
+		"pool_kernal_5": 3,
+		"pool_padding_5": 0,
+		"pool_stride_5": 2,
+		
+		"fc1": 4096,
+		"fc2": 4096
+	},
+	
+	"exec":{
+		"lr": 0.1,
+		"momentum": 0.001,
+		"num_epochs": 20,
+		"display_epochs": 2,
+		"num_batchs": 25,
+		"mile": 10,
+		"gamma": 0.1
+	}
+}
